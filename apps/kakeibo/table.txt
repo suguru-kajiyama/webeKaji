@@ -1,0 +1,24 @@
+テーブル定義
+  USERS
+        user_id       primarykey autoincrement
+        user_name     varchar
+        created_at    timestamp
+        logined_at    timestamp
+        password      varchar
+        deleateFlag   boolean  ,default 0
+
+  category
+        user_id       primarykey int
+        category_id   int
+        category_name varchar
+        deleateFlag   boolean default 0
+
+  balance
+        id            primarykey autoincrement
+        user_id       int
+        category_id   int
+        balance_date  timestamp
+        in_out        int
+        created_at    timestamp
+        money         int
+        deleateFlag   boolean default 0 
