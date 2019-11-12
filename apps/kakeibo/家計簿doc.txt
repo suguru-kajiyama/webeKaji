@@ -1,0 +1,15 @@
+controller
+
+model
+
+view
+  login.php
+    ログイン機能()、新規登録画面移動（signup.phpへ）
+  signup.php
+  main.php
+  user.php
+
+public
+  css
+  imgs
+  js

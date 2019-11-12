@@ -1,0 +1,19 @@
+#cal_cell{
+display: inline-flex;
+}.cell{
+height: 80px;
+width:60px;
+
+}#day_0 h4{
+color: red;
+}#day_6 h4{
+color:blue;
+}h5{
+margin:0;
+text-align:center;
+}
+p{
+line-height:0px;
+}.mon{
+
+}
